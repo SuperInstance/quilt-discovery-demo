@@ -1,0 +1,11 @@
+[
+  {
+    "cluster": "cluster_5",
+    "raw": {
+      "amplitude": -13,
+      "polarity": "contested",
+      "sightings": 6
+    },
+    "reason": "CONTESTED_POLARITY"
+  }
+]

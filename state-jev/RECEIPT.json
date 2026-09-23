@@ -1,0 +1,13 @@
+{
+  "pipeline": "quilt-discovery-jev",
+  "gan_pair": "pipeline.py",
+  "layers": {
+    "A": "9a3c485653978fa2d2c44736549b094d13c2b4d165bfbd0ea060a69ab9f5c4e7",
+    "B": "0008c35782af970248bb602915aef5f76c7ad94dc57c95ccdf81675ec7033842",
+    "C": "b3f06c619fef537e144cfea65b8c85350cf2c8bbed04585c3dd0fe4e440df1fc",
+    "D": "3ef657791ee94460ef34eb390893be1ff7005b8288811c211fc1574df52fa7bd"
+  },
+  "final_targets": 5,
+  "refused": 1,
+  "mechanism": "interference-consensus + typed-jev-lanes"
+}

@@ -1,0 +1,10 @@
+{
+  "cell": "D",
+  "files": {
+    "final/targets.json": "53cb3e2b144ac67e4506fdea327ccad3fb91e71bf25f6333e8ff161beb3ecfd3",
+    "jev/refused.json": "08468edbd71f713e0d0e55fd2ed169718954586e3a7cd94e923f669bda91b191"
+  },
+  "layer": "final_targets",
+  "layer_hash": "3ef657791ee94460ef34eb390893be1ff7005b8288811c211fc1574df52fa7bd",
+  "lineage": "Cell D: JEV typed lanes; REFUSED rows keep raw receipts (jeviter#14 law)"
+}

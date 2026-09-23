@@ -1,0 +1,9 @@
+{
+  "cell": "C",
+  "files": {
+    "candidates/resonant.json": "0726ef05f22005ea5b4ef5bccd58ebae76f0cfb44355f916d685c937e9d555a3"
+  },
+  "layer": "resonance_lines",
+  "layer_hash": "b3f06c619fef537e144cfea65b8c85350cf2c8bbed04585c3dd0fe4e440df1fc",
+  "lineage": "Cell C: consensus is emergent interference, not vote-counting"
+}

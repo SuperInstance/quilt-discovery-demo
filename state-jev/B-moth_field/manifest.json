@@ -1,0 +1,9 @@
+{
+  "cell": "B",
+  "files": {
+    "field/moth.txt": "1da360b635d51e7684c44b4d6032e248ed57b52c50975c4690fbdf17ad9a338e"
+  },
+  "layer": "moth_field",
+  "layer_hash": "0008c35782af970248bb602915aef5f76c7ad94dc57c95ccdf81675ec7033842",
+  "lineage": "Cell B: 12 moth-cells; findings are phase-writes, not records"
+}

@@ -1,0 +1,32 @@
+{
+  "cluster_10": {
+    "lane": "PASS",
+    "priority": 5,
+    "rule": "aligned && sightings>=2",
+    "typed_by": "jev"
+  },
+  "cluster_15": {
+    "lane": "PASS",
+    "priority": 11,
+    "rule": "aligned && sightings>=2",
+    "typed_by": "jev"
+  },
+  "cluster_20": {
+    "lane": "PASS",
+    "priority": 9,
+    "rule": "aligned && sightings>=2",
+    "typed_by": "jev"
+  },
+  "cluster_35": {
+    "lane": "PASS",
+    "priority": 7,
+    "rule": "aligned && sightings>=2",
+    "typed_by": "jev"
+  },
+  "cluster_45": {
+    "lane": "PASS",
+    "priority": 5,
+    "rule": "aligned && sightings>=2",
+    "typed_by": "jev"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "cluster_10": {
+    "amplitude": 5,
+    "polarity": "aligned",
+    "sightings": 2
+  },
+  "cluster_15": {
+    "amplitude": 11,
+    "polarity": "aligned",
+    "sightings": 5
+  },
+  "cluster_20": {
+    "amplitude": 9,
+    "polarity": "aligned",
+    "sightings": 4
+  },
+  "cluster_35": {
+    "amplitude": 7,
+    "polarity": "aligned",
+    "sightings": 3
+  },
+  "cluster_45": {
+    "amplitude": 5,
+    "polarity": "aligned",
+    "sightings": 2
+  },
+  "cluster_5": {
+    "amplitude": -13,
+    "polarity": "contested",
+    "sightings": 6
+  }
+}
