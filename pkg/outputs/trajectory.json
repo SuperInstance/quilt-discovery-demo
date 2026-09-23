@@ -1,0 +1,38 @@
+{
+  "corpus": "trajectory of 7 events, 7 mechanisms",
+  "iterator_note": "each event was live; the shape is only visible whole",
+  "lenses": [
+    {
+      "lens": "pair_repeat",
+      "holdout_hits": 0,
+      "compression_ratio": -2.993,
+      "survived": false
+    },
+    {
+      "lens": "progression",
+      "holdout_hits": 2,
+      "compression_ratio": -2.993,
+      "survived": true
+    },
+    {
+      "lens": "question_echo",
+      "holdout_hits": 0,
+      "compression_ratio": -3.34,
+      "survived": false
+    },
+    {
+      "lens": "meta_flip",
+      "holdout_hits": 1,
+      "compression_ratio": -2.646,
+      "survived": true
+    }
+  ],
+  "the_shape": {
+    "lens": "progression",
+    "holdout_hits": 2,
+    "compression_ratio": -2.993,
+    "survived": true
+  },
+  "prediction_for_next_lane": "NEW-MECHANISM (outside current vocabulary)",
+  "receipt": "if the next lane matches pred_next, the shape earns a row; if not, the shape is discarded and the corpus grows"
+}
