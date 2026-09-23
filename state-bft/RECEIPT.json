@@ -1,0 +1,16 @@
+{
+  "pipeline": "quilt-discovery-bft",
+  "gan_paths": [
+    "pipeline.py",
+    "pipeline_jev.py"
+  ],
+  "layers": {
+    "A": "9a3c485653978fa2d2c44736549b094d13c2b4d165bfbd0ea060a69ab9f5c4e7",
+    "B": "2fd1db17f7960e6fb7a4c9d9668fc8b1856d23a37947a89d307704c0f4d59878",
+    "C": "9baae579799729b0220006dd32a497cf7ccb73f2c72c2926ed79d63c169c5a60",
+    "D": "ebeaab575bb97fbe8c82ab0597a14d117760a68b89146725a27b3e8787506ef6"
+  },
+  "final_targets": 3,
+  "equivocation_faults": 0,
+  "mechanism": "quorum-certificate (2f+1 of 12, f=3 Byzantine) + sig-verify"
+}

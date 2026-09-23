@@ -32,19 +32,25 @@ python3 pipeline.py    # stdlib only; receipts land in state/
   (self-caught: first version returned 0 targets — a real design defect, receipted here).
 - **Final output:** 4 targets pass senior evaluation.
 
-## The GAN pair (Casey, 03:52: instead of Claude — our systems, cheaply)
+## The GAN trio (Casey, 03:52 + 04:04: instead of Claude — our systems, cheaply)
 
-**`pipeline_jev.py`** runs the same four cells through Moth workers and JEV lanes:
-findings are *phase-writes* into a shared interference field (Cell B), consensus is *emergent
-resonance* — no voter exists (Cell C), and evaluation emits typed JEV lanes with **REFUSED rows
-keeping raw receipts** instead of fabricated scores (Cell D; the jeviter#14 law made structural).
-Cell A is byte-identical to the claude path (same layer hash `9a3c4856…`) so every downstream
-difference is attributable to mechanism. Deterministic: receipt `c20f67a2…` across runs.
+Three paths, one shared substrate (Cell A identical in all — layer hash `9a3c4856…` — so every
+difference is mechanism):
 
-**The paths disagree on the frontier — that disagreement is the finding:**
-claude-path targets {15,20,35,40} vs jev-path {10,15,20,35,45}; cluster_5 (6 sightings, amplitude −13)
-got **REFUSED: CONTESTED_POLARITY** — workers saw the same thing and judged it oppositely, a fact
-vote-counting destroys by tallying. Idea log (documented as built, per standing order): **DOC.md**.
+| path | Cell B emits | consensus operator | targets |
+|---|---|---|---|
+| `pipeline.py` (claude-shaped) | JSON records | vote tally, mean ≥ 0.75 | {15, 20, 35, 40} |
+| `pipeline_jev.py` (moth+jev) | phase-writes into one interference field | emergent resonance, no voter | {10, 15, 20, 35, 45} + REFUSED 5 |
+| `pipeline_bft.py` (quorum) | signed ballots | 7-of-12 committee, f=3 Byzantine, median ≥ 0.70 | {10, 20, 40} |
+
+**The certainty map:** core {20} (all three) · frontier {10, 15, 35, 40} (exactly two) ·
+lone {45} (jev only) · typed refusal {5} (jev refuses where others silently drop).
+All deterministic; receipts: claude `ab86c231…`, jev `c20f67a2…`, bft `b3158bd2…` (byte-identical
+across independent runs). Idea log (documented as built, per standing order): **DOC.md**.
+
+Key receipts-caught defects (design lessons, kept honest): disjoint shards make consensus
+impossible (fixed: sliding-window overlap); tally-quorum with mean fails under Byzantine flips
+(fixed: median — fault tolerance is a flip-invariant statistic, not a bigger quorum).
 
 ## Production practices carried over (blueprint §Best Practices)
 

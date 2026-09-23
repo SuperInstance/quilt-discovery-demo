@@ -1,0 +1,20 @@
+{
+  "cell": "A",
+  "files": {
+    "inputs/agent_0/manifest.csv": "8f351c2fe2f7916d6d3e2d0bfea298539ced57c879a004d589a509016cde3904",
+    "inputs/agent_1/manifest.csv": "28fe7343b2bc106d36b7aed013ed309e43d23908daf94bc1d37fd03283c8b497",
+    "inputs/agent_10/manifest.csv": "28fe7343b2bc106d36b7aed013ed309e43d23908daf94bc1d37fd03283c8b497",
+    "inputs/agent_11/manifest.csv": "1225b0076d0f58cadf800bfb60147056f09a8d56461ed90fab565fbb6425545d",
+    "inputs/agent_2/manifest.csv": "1225b0076d0f58cadf800bfb60147056f09a8d56461ed90fab565fbb6425545d",
+    "inputs/agent_3/manifest.csv": "8f351c2fe2f7916d6d3e2d0bfea298539ced57c879a004d589a509016cde3904",
+    "inputs/agent_4/manifest.csv": "28fe7343b2bc106d36b7aed013ed309e43d23908daf94bc1d37fd03283c8b497",
+    "inputs/agent_5/manifest.csv": "1225b0076d0f58cadf800bfb60147056f09a8d56461ed90fab565fbb6425545d",
+    "inputs/agent_6/manifest.csv": "8f351c2fe2f7916d6d3e2d0bfea298539ced57c879a004d589a509016cde3904",
+    "inputs/agent_7/manifest.csv": "28fe7343b2bc106d36b7aed013ed309e43d23908daf94bc1d37fd03283c8b497",
+    "inputs/agent_8/manifest.csv": "1225b0076d0f58cadf800bfb60147056f09a8d56461ed90fab565fbb6425545d",
+    "inputs/agent_9/manifest.csv": "8f351c2fe2f7916d6d3e2d0bfea298539ced57c879a004d589a509016cde3904"
+  },
+  "layer": "pipeline_inputs",
+  "layer_hash": "9a3c485653978fa2d2c44736549b094d13c2b4d165bfbd0ea060a69ab9f5c4e7",
+  "lineage": "Cell A: identical shard geometry (shared substrate, 3rd path)"
+}

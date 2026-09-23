@@ -1,0 +1,15 @@
+{
+  "cell": "B",
+  "files": {
+    "votes/cluster_10.json": "69d65a60388b79fbc865cb25938b5efd674992e1799bcc98e87ba902c1de1786",
+    "votes/cluster_15.json": "faf8de081ee1aed354e6700421242ab33dd92578345cd2bbc68d6597c867f1fc",
+    "votes/cluster_20.json": "1c33a0ef390e4236b6205cce937ef82cd616fe74486a5251f84bdccd26213069",
+    "votes/cluster_35.json": "335451784f5b847e7cbc921524a1c445852f9f0e66e90d0ba8fb56a02ba6c740",
+    "votes/cluster_40.json": "e2cb4b11cb8e5cd0a032917946754530b25c4fe2e2b321b10dd1df75688c9581",
+    "votes/cluster_45.json": "a105d90c4f8b512c368040c075ff133fba0acc481aa271dc368c59e6311e49b6",
+    "votes/cluster_5.json": "009527a011253bd6d0060443d7ffdadb7c28a9f5b9da590e6151785e846cd6c4"
+  },
+  "layer": "signed_votes",
+  "layer_hash": "2fd1db17f7960e6fb7a4c9d9668fc8b1856d23a37947a89d307704c0f4d59878",
+  "lineage": "Cell B: signed ballots; workers 3,7,11 Byzantine (conf flipped)"
+}

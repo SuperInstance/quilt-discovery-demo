@@ -1,0 +1,82 @@
+[
+  {
+    "ballot": {
+      "cluster": "cluster_5",
+      "confidence": 0.733,
+      "verdict": "SUPPORT"
+    },
+    "byzantine": false,
+    "sig": "8546255e8a2e3f64",
+    "worker": 0
+  },
+  {
+    "ballot": {
+      "cluster": "cluster_5",
+      "confidence": 0.551,
+      "verdict": "SUPPORT"
+    },
+    "byzantine": false,
+    "sig": "01979b27a738e9c6",
+    "worker": 2
+  },
+  {
+    "ballot": {
+      "cluster": "cluster_5",
+      "confidence": 0.442,
+      "verdict": "SUPPORT"
+    },
+    "byzantine": true,
+    "sig": "1af88c99257a83d8",
+    "worker": 3
+  },
+  {
+    "ballot": {
+      "cluster": "cluster_5",
+      "confidence": 0.958,
+      "verdict": "SUPPORT"
+    },
+    "byzantine": false,
+    "sig": "7b04f9ad10696c08",
+    "worker": 5
+  },
+  {
+    "ballot": {
+      "cluster": "cluster_5",
+      "confidence": 0.639,
+      "verdict": "SUPPORT"
+    },
+    "byzantine": false,
+    "sig": "0a0eb76eed147fb1",
+    "worker": 6
+  },
+  {
+    "ballot": {
+      "cluster": "cluster_5",
+      "confidence": 0.8,
+      "verdict": "SUPPORT"
+    },
+    "byzantine": false,
+    "sig": "80b26442478cb65e",
+    "worker": 8
+  },
+  {
+    "ballot": {
+      "cluster": "cluster_5",
+      "confidence": 0.877,
+      "verdict": "SUPPORT"
+    },
+    "byzantine": false,
+    "sig": "c2458ad6b2200d5b",
+    "worker": 9
+  },
+  {
+    "ballot": {
+      "cluster": "cluster_5",
+      "confidence": 0.075,
+      "verdict": "SUPPORT"
+    },
+    "byzantine": true,
+    "sig": "857746846d11e419",
+    "worker": 11
+  }
+]

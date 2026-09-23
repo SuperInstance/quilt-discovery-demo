@@ -1,0 +1,9 @@
+{
+  "cell": "C",
+  "files": {
+    "candidates/certified.json": "be2c33764eba91684e6791f7f31da12ee7232f9e3f72a578dff9cd8079b5ee67"
+  },
+  "layer": "quorum_certificates",
+  "layer_hash": "9baae579799729b0220006dd32a497cf7ccb73f2c72c2926ed79d63c169c5a60",
+  "lineage": "Cell C: committee quorum=7/12 (f=3); sigs verified; equivocation->FAULT"
+}

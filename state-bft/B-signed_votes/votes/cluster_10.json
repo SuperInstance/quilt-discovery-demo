@@ -1,0 +1,42 @@
+[
+  {
+    "ballot": {
+      "cluster": "cluster_10",
+      "confidence": 0.8280000000000001,
+      "verdict": "SUPPORT"
+    },
+    "byzantine": false,
+    "sig": "9921925fbe83d1df",
+    "worker": 0
+  },
+  {
+    "ballot": {
+      "cluster": "cluster_10",
+      "confidence": 0.391,
+      "verdict": "SUPPORT"
+    },
+    "byzantine": true,
+    "sig": "efdb5774ca041e02",
+    "worker": 3
+  },
+  {
+    "ballot": {
+      "cluster": "cluster_10",
+      "confidence": 0.8009999999999999,
+      "verdict": "SUPPORT"
+    },
+    "byzantine": false,
+    "sig": "046d7aafc9af1c9f",
+    "worker": 6
+  },
+  {
+    "ballot": {
+      "cluster": "cluster_10",
+      "confidence": 0.877,
+      "verdict": "SUPPORT"
+    },
+    "byzantine": false,
+    "sig": "eadb62e8dfe58784",
+    "worker": 9
+  }
+]

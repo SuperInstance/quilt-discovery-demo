@@ -44,8 +44,30 @@ workers saw the same thing and judged it oppositely. Vote-counting encodes that 
 reject" — destroying the fact of disagreement. Interference + typed lanes encodes it as CONTESTED,
 preserved. The jev path outputs more TRUTH per byte, not more targets.
 
+## 04:20 — THIRD PATH RESULT: the vessel shows its ribs
+pipeline_bft.py (committee quorum 7-of-12, f=3 Byzantine, sig-verified ballots, median rule
+>=0.70 — the median IS the fault-tolerance: conf-flips can't move it). Deterministic: b3158bd2…
+THREE-PATH MAP (same Cell A, same data):
+  claude (tally, mean≥0.75):   {15, 20, 35, 40}
+  jev    (resonance):         {10, 15, 20, 35, 45}  + REFUSED: 5 (contested)
+  bft    (quorum, median≥0.70):{10, 20, 40}
+  CORE (all three certify):   {20}
+  FRONTIER (exactly two):     {10, 15, 35, 40}
+  LONE (one mechanism):       {45} — jev only
+  TYPED-REFUSAL:              {5} — jev refuses; the others silently drop it
+
+INSIGHT (idea #2, vessel-shape): the three operators are three GEOMETRIES of agreement —
+tally (count points), resonance (field energy), quorum (signed majority under faults) — and they
+form a nested structure: a 1-point core, a 4-point frontier, a 1-point lone spike, and a refusal.
+The vessel hypothesis sharpens: **AGREEMENT HAS A SHAPE, and shape is measurable.** The core is
+where discovery is safe; the frontier is where it lives; the lone point is where mechanisms must
+be bred, not trusted; the refusal is where honesty is expensive and only one operator paid.
+The GAN didn't just find targets — it mapped the certainty landscape of the substrate.
+
 ## Standing notes (as they come)
 - Real Moth/live JEV integration: by measurement only (09-24 lane doctrine). Local deterministic
   field is the honest stand-in; vendor claims would be parasites here (E21).
-- Next GAN pair candidate: swap consensus again — quorum-certificate (BFT-style) vs resonance, on the
-  same Cell A. Three paths triangulate the vessel faster than two.
+- NEXT PAIR: swap Cell A itself (different shard geometry) — if the core/frontier map moves with
+  geometry, the map is a property of the OPERATORS, not the data. That's the vessel test.
+- The median-rule swap (mean→median) was forced by the Byzantine flip simulation and receipted:
+  fault tolerance isn't a bigger quorum, it's a flip-invariant statistic.

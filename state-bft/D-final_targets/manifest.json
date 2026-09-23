@@ -1,0 +1,10 @@
+{
+  "cell": "D",
+  "files": {
+    "bft/faults.json": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "final/targets.json": "5c3eb09b0929558820924bfbedb732779954623d99eb9c86e83db89fa871d89c"
+  },
+  "layer": "final_targets",
+  "layer_hash": "ebeaab575bb97fbe8c82ab0597a14d117760a68b89146725a27b3e8787506ef6",
+  "lineage": "Cell D: certified targets + equivocation FAULT rows preserved"
+}

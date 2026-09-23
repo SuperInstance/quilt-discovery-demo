@@ -1,0 +1,47 @@
+{
+  "cluster_10": {
+    "certificate": [
+      "89b43fe3618a9234",
+      "f2f847caaf53fe89",
+      "60c01d2fed789af1",
+      "17881995fa17794c",
+      "82215419aa12368e",
+      "b1a586b8793290d0",
+      "35586c98fdc62cba",
+      "333e18f00726620a",
+      "6dab2cef8d634c35"
+    ],
+    "honest_of_quorum": "9/9",
+    "quorum": 9
+  },
+  "cluster_20": {
+    "certificate": [
+      "62fcaf6cb536bde7",
+      "cd1db4158906e314",
+      "4cf4499d24fb4756",
+      "f023c6ab162c7244",
+      "9a15b38e2ab35b87",
+      "5646b8e3410ccec5",
+      "323fd0ee79d8be81",
+      "1aea90fbbba785e2",
+      "1deb9fc81dc9a340"
+    ],
+    "honest_of_quorum": "9/9",
+    "quorum": 9
+  },
+  "cluster_40": {
+    "certificate": [
+      "c1446dec8692aed8",
+      "d9c37afd9177a163",
+      "b966f97ae26492e2",
+      "1ab71288037d64e9",
+      "8120d2f657ededdb",
+      "6bceb460238f98ee",
+      "c1790e9a5c21ddf8",
+      "bbea388727f912d3",
+      "a9e487141e4352c5"
+    ],
+    "honest_of_quorum": "9/9",
+    "quorum": 9
+  }
+}

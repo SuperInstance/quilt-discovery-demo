@@ -1,0 +1,23 @@
+{
+  "cluster_10": {
+    "certificate_size": 9,
+    "honest_of_quorum": "9/9",
+    "lane": "PASS",
+    "quorum_votes": 9,
+    "typed_by": "bft-senior"
+  },
+  "cluster_20": {
+    "certificate_size": 9,
+    "honest_of_quorum": "9/9",
+    "lane": "PASS",
+    "quorum_votes": 9,
+    "typed_by": "bft-senior"
+  },
+  "cluster_40": {
+    "certificate_size": 9,
+    "honest_of_quorum": "9/9",
+    "lane": "PASS",
+    "quorum_votes": 9,
+    "typed_by": "bft-senior"
+  }
+}
